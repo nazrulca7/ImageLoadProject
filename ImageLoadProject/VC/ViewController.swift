@@ -15,19 +15,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         
     }
     
-    @IBAction func btnStart(_ sender: Any) {
-        
-        let queue = DispatchQueue.init(label: "1")
-        queue.async {
-            // task that takes time
-            // api call // dateTask
-            // access file system
-            // connect DB // CoreData
-         
-        }
-        
-    }
-    
+
 
     var Imageshow:ImageManager = ImageManager()
     @IBOutlet weak var Image_picker: UIPickerView!
