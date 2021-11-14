@@ -23,16 +23,12 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
             // api call // dateTask
             // access file system
             // connect DB // CoreData
-            Thread.sleep(forTimeInterval: 10) // any task that need time
-            DispatchQueue.main.async {
-                // should happend in Main Thread
-                self.lblshow.text = "DONE!!!!"
-            }
+         
         }
         
     }
     
-    @IBOutlet weak var lblshow: UILabel!
+
     var Imageshow:ImageManager = ImageManager()
     @IBOutlet weak var Image_picker: UIPickerView!
     
