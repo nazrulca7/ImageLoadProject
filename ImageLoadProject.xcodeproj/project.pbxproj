@@ -43,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1084CD2A2740B1550043D2A8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1084CD28273AF5450043D2A8 /* AddImgLoadViewController.swift */,
+				10D19735273AD45F001721C8 /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1084CD2B2740B8940043D2A8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				10D19747273AD553001721C8 /* ImageManager.swift */,
+				10D19745273AD526001721C8 /* ImageInfo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		10D19725273AD45F001721C8 = {
 			isa = PBXGroup;
 			children = (
@@ -64,14 +82,12 @@
 			children = (
 				10D19731273AD45F001721C8 /* AppDelegate.swift */,
 				10D19733273AD45F001721C8 /* SceneDelegate.swift */,
-				10D19735273AD45F001721C8 /* ViewController.swift */,
+				1084CD2A2740B1550043D2A8 /* VC */,
 				10D19737273AD45F001721C8 /* Main.storyboard */,
 				10D1973A273AD461001721C8 /* Assets.xcassets */,
 				10D1973C273AD461001721C8 /* LaunchScreen.storyboard */,
 				10D1973F273AD461001721C8 /* Info.plist */,
-				10D19745273AD526001721C8 /* ImageInfo.swift */,
-				10D19747273AD553001721C8 /* ImageManager.swift */,
-				1084CD28273AF5450043D2A8 /* AddImgLoadViewController.swift */,
+				1084CD2B2740B8940043D2A8 /* model */,
 			);
 			path = ImageLoadProject;
 			sourceTree = "<group>";
